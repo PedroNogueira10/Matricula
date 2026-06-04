@@ -18,14 +18,38 @@ public class Main {
                 \n
                 ===Disciplinas Disponíveis===
                 Codigo           Disciplina           Carga Horária     Idade Mínima
-                   1    -    Matemática Básica     -       40h       -    Nenhuma
+                   1    -      Matemática Básica     -       40h       -    Nenhuma
                    2    -    Programação Java      -       60h       -    14 anos
                    3    -    Física Experimental   -       50h       -    15 anos
                    4    -    Inglês Intermediário  -       45h       -    12 anos
                    5    -    Robótica              -       70h       -    16 anos
                 
                 Seleciona uma disciplina: """);
-            codigo = sc.nextInt();
+            codigo = sc.nextInt();do {
+            System.out.print("""
+                \n
+                ===Disciplinas Disponíveis===
+                Codigo           Disciplina           Carga Horária     Idade Mínima
+                   1    -      Matemática Básica     -       40h       -    Nenhuma
+                   2    -    Programação Java      -       60h       -    14 anos
+                   3    -    Física Experimental   -       50h       -    15 anos
+                   4    -    Inglês Intermediário  -       45h       -    12 anos
+                   5    -    Robótica              -       70h       -    16 anos
+                
+                Seleciona uma disciplina: """);
+            codigo = sc.nextInt();do {
+            System.out.print("""
+                \n
+                ===Disciplinas Disponíveis===
+                Codigo           Disciplina           Carga Horária     Idade Mínima
+                   1    -      Matemática Básica     -       40h       -    Nenhuma
+                   2    -    Programação Java      -       60h       -    14 anos
+                   3    -    Física Experimental   -       50h       -    15 anos
+                   4    -    Inglês Intermediário  -       45h       -    12 anos
+                   5    -    Robótica              -       70h       -    16 anos
+                
+                Seleciona uma disciplina: """);
+            codigo = sc.nextInt();do {
             sc.nextLine();
 
             switch (codigo) {
